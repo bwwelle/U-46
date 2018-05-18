@@ -1,0 +1,234 @@
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: #E7F0F9;
+}
+.twoColFixRtHdr #container {
+	width: 864px; /* the auto margins (in conjunction with a width) center the page */
+	border: 0px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #E7F0F9;
+} 
+.twoColFixRtHdr #header {
+	padding: 0;
+	margin-bottom: 18px;
+} 
+.twoColFixRtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.twoColFixRtHdr #container #header #banner {
+}
+.twoColFixRtHdr #container #header #navigation {
+	height: 27px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+}
+.twoColFixRtHdr #sidebar1 {
+	width: 234px;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+}
+.twoColFixRtHdr #sidebar1 a:link {
+	color: #234B84;
+	text-decoration: none;
+}
+.twoColFixRtHdr #sidebar1 a:visited {
+	color: #234B84;
+	text-decoration: none;
+}
+.twoColFixRtHdr #sidebar1 a:hover {
+	color: #234B84;
+	text-decoration: underline;
+}
+.twoColFixRtHdr #sidebar1 a:active {
+	color: #234B84;
+	text-decoration: none;
+}
+.twoColFixRtHdr #sidebar1 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	margin-left: 18px;
+}
+.twoColFixRtHdr #mainContent {
+	margin-right: 252px;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	width: 612px;
+	position: absolute;
+	top: 189px;
+} 
+.twoColFixRtHdr #mainContentwide {
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	width: 864px;
+	position: absolute;
+	top: 189px;
+}
+.twoColFixRtHdr   #searchbox   {
+	margin: 0;
+	padding: 0px;
+	background-image: url(images/searchbg1.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.twoColFixRtHdr  #resultsbox  {
+	margin-top: 18px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #234B84;
+	border-bottom-color: #234B84;
+	padding: 18px;
+}
+.twoColFixRtHdr  #resultsbox  h1   {
+	font-size: 16px;
+	color: #234B84;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.twoColFixRtHdr  #resultsbox  p   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+}
+.twoColFixRtHdr  #resultsbox  ul   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	list-style-image: none;
+	list-style-type: none;
+}
+.twoColFixRtHdr  #resultsbox  li   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	list-style-image: none;
+	list-style-type: none;
+}
+.twoColFixRtHdr  #content  {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-top-color: #234B84;
+	border-bottom-color: #234B84;
+}
+.twoColFixRtHdr #content td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+}
+.contentbold {
+	font-weight: bold;
+}
+.twoColFixRtHdr #content th {
+	background-color: #234B84;
+	font-size: 14px;
+	text-align: left;
+	color: #FFCC33;
+	vertical-align: top;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.twoColFixRtHdr  #content  h1   {
+	font-size: 16px;
+	color: #234B84;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.twoColFixRtHdr #content h2 {
+	font-size: 14px;
+	color: #234B84;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.twoColFixRtHdr  #content  p   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+}
+.twoColFixRtHdr  #content  ul   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	list-style-image: none;
+	list-style-type: disc;
+}
+.vocab {
+	font-size: 14px;
+	font-weight: bold;
+}
+.twoColFixRtHdr  #content  li   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	list-style-position: inside;
+}
+.contentlight {
+	font-weight: lighter;
+}
+.resultstext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	font-weight: normal;
+}
+.largewhitetext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.twoColFixRtHdr #footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 18px;
+} 
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+select {
+	width: 180px;
+}
+.contenttext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #234B84;
+	font-weight: normal;
+}
+.contenttitlenumber {
+	text-align: right;
+}
